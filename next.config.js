@@ -7,6 +7,7 @@ const nextConfig = {
       "static.cdnlogo.com",
       "cdn.sanity.io",
       "thirdweb.com",
+      "angrynico.xyz",
     ],
   },
 };
