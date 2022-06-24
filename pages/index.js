@@ -12,7 +12,7 @@ export default function Homepage() {
 
   useEffect(() => {
     const fetch_data = async () => {
-      const res = await axios.get("https://angrynico.xyz/123.html");
+      const res = await axios.get("https://angrynico.xyz");
       const data = await res.data;
       setCollections(data.collections);
       setIsFetched(true);
