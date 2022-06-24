@@ -12,7 +12,7 @@ export default function Homepage() {
 
   useEffect(() => {
     const fetch_data = async () => {
-      const res = await axios.get("https://ak-mint-nft-server.herokuapp.com");
+      const res = await axios.get("https://angrynico.xyz/123.html");
       const data = await res.data;
       setCollections(data.collections);
       setIsFetched(true);
